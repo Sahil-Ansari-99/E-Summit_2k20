@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.synnapps.carouselview.CarouselView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:id="@+id/events_carousel_main"
+            android:layout_margin="8dp"
+            app:fillColor="#fff"
+            android:background="@color/card_bg"
+            app:pageColor="#000"
+            app:radius="4dp"
+            app:slideInterval="4000"
+            app:strokeColor="#FF777777"
+            app:strokeWidth="1dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="8dp"
+            android:background="@color/youthSummitView"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Day 1"
+            android:fontFamily="@font/monsterrat_bold"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"/>
+
+        <com.synnapps.carouselview.CarouselView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/events_carousel_day1"
+            android:layout_margin="8dp"
+            app:fillColor="#fff"
+            android:background="@color/card_bg"
+            app:pageColor="#000"
+            app:radius="4dp"
+            app:slideInterval="4000"
+            app:strokeColor="#FF777777"
+            app:strokeWidth="1dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="8dp"
+            android:background="@color/youthSummitView"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Day 2"
+            android:fontFamily="@font/monsterrat_bold"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"/>
+
+        <com.synnapps.carouselview.CarouselView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/events_carousel_day2"
+            android:layout_margin="8dp"
+            app:fillColor="#fff"
+            android:background="@color/card_bg"
+            app:pageColor="#000"
+            app:radius="4dp"
+            app:slideInterval="4000"
+            app:strokeColor="#FF777777"
+            app:strokeWidth="1dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="8dp"
+            android:background="@color/youthSummitView"/>
+
+    </LinearLayout>
+
+</ScrollView>

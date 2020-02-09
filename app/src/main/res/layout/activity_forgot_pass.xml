@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg"
+    android:layout_width="match_parent"
+    android:paddingStart="50dp"
+    android:paddingEnd="50dp"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:background="@drawable/auth_field_bg"
+        tools:ignore="Suspicious0dp">
+
+        <EditText
+            android:id="@+id/forgot_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FBFBFB"
+            android:fontFamily="@font/monsterrat_regular"
+            android:hint="ENTER REGISTERED EMAIL ID"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="15sp"
+            android:inputType="textEmailAddress"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:id="@+id/forgot_proceed"
+        android:background="@drawable/auth_btn_bg"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:fontFamily="@font/monsterrat_bold"
+        android:padding="5dp"
+        android:layout_marginTop="35dp"/>
+
+</LinearLayout>

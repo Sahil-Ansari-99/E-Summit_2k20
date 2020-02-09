@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_announcements"
+            android:icon="@drawable/ic_nav_announcement"
+            android:title="Announcements" />
+        <item
+            android:id="@+id/nav_sponsors"
+            android:icon="@drawable/ic_nav_sponsors"
+            android:title="Sponsors" />
+<!--        <item-->
+<!--            android:id="@+id/nav_events"-->
+<!--            android:icon="@drawable/ic_nav_events"-->
+<!--            android:title="Events" />-->
+        <item
+            android:id="@+id/nav_agenda"
+            android:icon="@drawable/ic_agenda"
+            android:title="Agenda" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_nav_faq"
+            android:title="FAQ" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Sign Out" />
+
+<!--        <item android:title="Socials">-->
+<!--            <menu>-->
+<!--                <group android:checkableBehavior="single">-->
+<!--                    <item-->
+<!--                        android:title="Instagram"-->
+<!--                        android:icon="@drawable/iconfinder_instagram_1696894"-->
+<!--                        android:id="@+id/nav_insta" />-->
+<!--                </group>-->
+<!--            </menu>-->
+<!--        </item>-->
+    </group>
+</menu>

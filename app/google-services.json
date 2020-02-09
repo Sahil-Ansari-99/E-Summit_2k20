@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "296743630145",
+    "firebase_url": "https://e-summit-2k20.firebaseio.com",
+    "project_id": "e-summit-2k20",
+    "storage_bucket": "e-summit-2k20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296743630145:android:f7d5e6c626a0f5e88d1dc0",
+        "android_client_info": {
+          "package_name": "com.company.e_summit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296743630145-0j7e9v18h8jvnu6vq6ti0aokbijfnhi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfth7yQjeEhunSprQiggun4rmbGDatz5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296743630145-0j7e9v18h8jvnu6vq6ti0aokbijfnhi7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

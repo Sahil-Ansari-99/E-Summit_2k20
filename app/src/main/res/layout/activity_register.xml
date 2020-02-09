@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:src="@mipmap/e_summit_logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="60dp"
+            android:paddingStart="60dp"
+            android:paddingEnd="60dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/auth_field_bg"
+                tools:ignore="Suspicious0dp">
+
+                <EditText
+                    android:id="@+id/register_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FBFBFB"
+                    android:fontFamily="@font/monsterrat_regular"
+                    android:hint="EMAIL ID"
+                    android:singleLine="true"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:textSize="15sp"
+                    android:inputType="textEmailAddress"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/auth_field_bg"
+                tools:ignore="Suspicious0dp"
+                android:layout_marginTop="30dp">
+
+                <EditText
+                    android:id="@+id/register_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="PASSWORD"
+                    android:backgroundTint="#FBFBFB"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:fontFamily="@font/monsterrat_regular"
+                    android:textColorHint="#000"
+                    android:singleLine="true"
+                    android:inputType="textPassword"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/auth_field_bg"
+                tools:ignore="Suspicious0dp"
+                android:layout_marginTop="30dp">
+
+                <EditText
+                    android:id="@+id/register_confirm_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="CONFIRM PASSWORD"
+                    android:backgroundTint="#FBFBFB"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:fontFamily="@font/monsterrat_regular"
+                    android:textColorHint="#000"
+                    android:singleLine="true"
+                    android:inputType="textPassword"/>
+
+            </RelativeLayout>
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/register_spinner"
+                android:spinnerMode="dropdown"
+                android:popupBackground="#000"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SUBMIT"
+                android:id="@+id/register_submit"
+                android:background="@drawable/auth_btn_bg"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:fontFamily="@font/monsterrat_bold"
+                android:padding="5dp"
+                android:layout_marginTop="35dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

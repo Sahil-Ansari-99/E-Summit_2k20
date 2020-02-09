@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/card_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:src="@mipmap/e_summit_logo"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:id="@+id/sponsors_card_img"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="50dp"
+            android:id="@+id/sponsors_card_name"
+            android:text="Sponsor name"
+            android:fontFamily="@font/monsterrat_bold"
+            android:textSize="18sp"
+            android:textColor="#D7DBDD"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"/>
+
+        <View
+            android:layout_width="130dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="@color/youthSummitView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="50dp"
+            android:id="@+id/sponsors_card_title"
+            android:fontFamily="@font/monsterrat_regular"
+            android:text="Sponsor Title"
+            android:textSize="15sp"
+            android:textColor="#D7DBDD"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
